@@ -1,0 +1,13 @@
+@use '../../base' as *;
+
+.services {
+
+  &__item {
+    border
+  }
+
+  &__title {
+    font: 700 24px 'Poppins';
+    text-transform: capitalize;
+  }
+}

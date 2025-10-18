@@ -1,0 +1,25 @@
+@use '../../base' as *;
+
+.experiance {
+  border: 3px solid $experiance-border-color;
+  border-radius: 9px;
+  display: flex;
+  margin-block-end: 20px;
+  padding-block: 21px 23px;
+  padding-inline: 26px 10px;
+  column-gap: 20px;
+
+  &__logo {
+    border: 2px solid $experiance-border-color;
+    border-radius: 8px;
+  }
+
+  &__heading {
+    font-weight: 400;
+  }
+
+  &__description {
+    font-size: 18px;
+    font-family: '';
+  }
+}

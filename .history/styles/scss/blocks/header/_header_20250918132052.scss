@@ -1,0 +1,33 @@
+@use '../../base' as *;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 36px 41px;
+    min-height: 62px;
+}
+
+.logo-wrapper {
+        color: $logo-color;
+    font-family: $sigmarOne;
+    font-size: 38px;
+}
+
+.logo {
+    margin-inline-start: 150px;
+    margin-block-start: 2px;
+}
+
+.theme-toggle {
+    border-radius: 50%;
+    height: 59px;
+    width: 59px;
+
+    &-light {
+        background: $theme-button-bg url('../../images/icon/lite-mode.svg') no-repeat  20px 17px;
+    }
+
+    &-dark {
+        background: url('../../images/icon/dark-mode.svg');
+    }
+}

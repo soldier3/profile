@@ -1,0 +1,13 @@
+@use 'base' as *;
+
+.logo {
+    color: $logo-color;
+    font-family: $sigmarOne;
+    font-size: 38px;
+}
+
+.theme-toggle {
+    background-color: $theme-button-bg;
+    height: 59px;
+    width: 59px;
+}

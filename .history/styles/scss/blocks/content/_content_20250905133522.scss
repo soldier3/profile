@@ -1,0 +1,10 @@
+@use '../../base' as *;
+
+.content{
+    align-items: center;
+    border: 3px solid $border-lite-color;
+    border-radius: 13px;
+    max-width: 530px;
+    padding-block: 29px;
+    padding-block-end: 34px ;
+}

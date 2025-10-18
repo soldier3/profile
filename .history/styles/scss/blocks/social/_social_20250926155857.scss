@@ -1,0 +1,20 @@
+@use '../../base' as *;
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 30px;
+  max-width: 234px;
+  width: 100%;
+
+  &--contacts {
+  }
+}
+
+.social-item {
+  height: 34px;
+  width: 34px;
+
+  &--instagram {
+  }
+}

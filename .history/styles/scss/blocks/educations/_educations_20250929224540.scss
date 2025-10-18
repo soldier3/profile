@@ -1,0 +1,21 @@
+@use '../../base' as *;
+
+.education {
+  display: flex;
+  gap: 38px;
+
+  &__item {
+    border: 3px solid $education-border-color;
+    border-radius: 9px;
+    padding-block: 20px;
+    padding-inline: 20px;
+  }
+
+  &__heading {
+    font: 400 18px 'Poppins';
+  }
+
+  &__institution {
+    font: 600;
+  }
+}

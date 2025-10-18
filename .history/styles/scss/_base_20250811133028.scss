@@ -1,0 +1,10 @@
+@forward '_variables';
+
+body {
+    background-color: $body-background;
+}
+
+.main-conteiner {
+    max-width: 1511px;
+    margin: 0 auto;
+}

@@ -1,0 +1,20 @@
+@use 'base' as *;
+
+header {
+    display
+    min-height: 62px;
+}
+
+.logo {
+    color: $logo-color;
+    font-family: $sigmarOne;
+    font-size: 38px;
+}
+
+.theme-toggle {
+    background-color: $theme-button-bg;
+    border-radius: 50%;
+    height: 59px;
+    width: 59px;
+}
+

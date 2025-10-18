@@ -1,0 +1,46 @@
+@use '../../base' as *;
+
+.contacts {
+    align-items: center;
+    border: 3px solid $border-lite-color;
+    border-radius: 13px;
+    display: flex;
+    bla
+    flex-direction: column;
+    justify-content: center;
+    max-width: 369px;
+    margin-block-start: 101px;
+    padding-block-end: 35px ;
+
+    &--light {
+      background-color: #fff;
+    }
+
+    &__user-picture {
+        border: 5px solid $border-lite-color;
+        border-radius: 14px;
+        display: inline-block;
+        margin-top: -66px;
+        max-width: 200px;
+    }
+
+    &__user-name {
+      font: 700 26px 'Inter';
+      letter-spacing: 0.5px;
+      margin-block: 10px 8px;
+    }
+
+    &__profession {
+      background-color: $ContatsProfessionBg;
+      border: 1px solid $border-lite-color;
+      border-radius: 6px;
+      display: inline-block;
+      font: 500 16px 'Inter';
+      margin-block-end: 34px;
+
+      &--light {
+        padding-block: 9px;
+        padding-inline: 20px;
+      }
+    }
+}

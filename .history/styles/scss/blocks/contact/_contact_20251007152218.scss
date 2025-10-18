@@ -1,0 +1,13 @@
+@use '../../base' as *;
+
+.contact {
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+        &__form {
+          display: flex;
+          flex-direction: column;
+        }
+}

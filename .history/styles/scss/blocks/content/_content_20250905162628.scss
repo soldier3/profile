@@ -1,0 +1,19 @@
+@use '../../base' as *;
+
+.content{
+  align-items: center;
+  border: 3px solid $border-lite-color;
+  border-radius: 13px;
+  max-width: 912px;
+  padding-block: 34px 29px;
+  padding-inline: 40px;
+
+  &__title {
+    font: 700 getRem(28) 'Poppins';
+    nargin-box
+  }
+
+  &__text {
+    font: 400 getRem(18) 'Poppins';
+  }
+}

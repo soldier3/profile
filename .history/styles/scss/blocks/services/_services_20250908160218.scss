@@ -1,0 +1,10 @@
+@use '../../base' as *;
+
+.services {
+  border: 1px solid;
+
+  &__title {
+    font: 700 24px 'Poppins';
+          font: 700 26px 'Inter';
+  }
+}

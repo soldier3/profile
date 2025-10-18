@@ -1,0 +1,16 @@
+@use '../../base' as *;
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    align-items: center;
+    display: flex;
+    font: 500 19px 'Poppins'
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 79px;
+    width: 85px;
+  }
+}

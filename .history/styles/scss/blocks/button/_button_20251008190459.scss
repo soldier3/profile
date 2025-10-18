@@ -1,0 +1,11 @@
+@use '../../base' as *;
+
+.button {
+  background-color: $button-bg;
+  border: 2px solid $button-border;
+  border-radius: 8px;
+  font: 700 21px 'Merriweather Sans';
+  padding-block: 8px;
+  padding-inline: 31px;
+}
+

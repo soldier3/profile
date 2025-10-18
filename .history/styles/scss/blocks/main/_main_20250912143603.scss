@@ -1,0 +1,8 @@
+@use '../../base' as *;
+
+.main {
+  display: flex;
+      align-items: flex-start;
+  gap: 0 52px;
+  padding-block-end: 38px;
+}

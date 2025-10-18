@@ -1,0 +1,17 @@
+@use '../../base' as *;
+
+.contact {
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  {
+    border-radius: ;$contact-border-color;
+  }
+}

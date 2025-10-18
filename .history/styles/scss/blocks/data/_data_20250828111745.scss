@@ -1,0 +1,14 @@
+@use '../../base' as *;
+
+.data {
+  padding: 21px;
+  max-width: 284px;
+  width: 100%;
+
+  &icon-wrapper {
+    border-radius: 5px;
+    display: inline-block;
+    height: 35px;
+    width:35px;
+  }
+}

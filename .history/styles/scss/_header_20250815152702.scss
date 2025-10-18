@@ -1,0 +1,30 @@
+@use 'base' as *;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    min-height: 62px;
+}
+
+.logo {
+    color: $logo-color;
+    font-family: $sigmarOne;
+    font-size: 38px;
+}
+
+.theme-toggle {
+    border-radius: 50%;
+    height: 59px;
+    width: 59px;
+
+    &-light {
+        background: $theme-button-bg url('../../images/icon/lite-mode.svg') no-repeat  20px 17px;
+    }
+
+
+    &-dark {
+        background: url('../../images/icon/dark-mode.svg');
+    }
+}
+

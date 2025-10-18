@@ -1,0 +1,15 @@
+@use '../../base' as *;
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    border: 1px solid $skills-border-color;
+    border-radius: 8px;
+    display: flex;
+    
+    height: 79px;
+    width: 85px;
+  }
+}

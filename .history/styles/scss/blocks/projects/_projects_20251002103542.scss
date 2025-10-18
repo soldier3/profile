@@ -1,0 +1,31 @@
+@use '../../base' as *;
+
+.projects {
+
+		&__heading {
+      font: 700 28px 'Poppins';
+      margin-block-end: 28px; 
+		}
+
+		&__grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px 53px;
+      margin-inline: 28px;
+		}
+
+		&__item {
+      background-color: $projects-bg-color;
+      border: 2px solid $projects-border-color;
+      border-radius: 9px;
+      padding-block: 20px;
+      padding-inline: 19px;
+		}
+
+    &__title {
+      font: 700 18px 'Poppins'; 
+		}
+
+		&__image {
+		}
+}

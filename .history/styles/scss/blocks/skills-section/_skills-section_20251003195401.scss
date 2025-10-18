@@ -1,0 +1,10 @@
+@use '../../base' as *;
+
+.skills-section {
+  margin-block-end: 24px;
+  
+  &__title {
+    font: 700 28px "Poppins"; 
+    margin-block: 8px 35px;
+  }
+}

@@ -1,0 +1,18 @@
+@use '../../base' as *;
+
+.projects {
+
+		&__title {
+		}
+
+		&__grid {
+		}
+
+		&__item {
+      padding-block: 22px;
+      padding-inline: 21px;
+		}
+
+		&__image {
+		}
+}
