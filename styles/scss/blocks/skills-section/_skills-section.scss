@@ -2,9 +2,10 @@
 
 .skills-section {
   margin-block-end: 24px;
-  
+
   &__title {
-    font: 700 28px "Poppins"; 
+    color: var(--black);
+    font: 700 28px $poppins;
     margin-block: 8px 35px;
   }
 }

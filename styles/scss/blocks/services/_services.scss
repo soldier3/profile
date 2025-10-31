@@ -10,32 +10,35 @@
   }
 
   &__item {
-    background-color: $services-bg;
-    border: 3px solid $services-border-color;
+    background-color: var(--light-pink);
+    border: 3px solid var(--gold);
     border-radius: 9px;
     display: flex;
     overflow: hidden;
     max-width: 389px;
   }
 
+
   &__title {
+    color: var(--black);
     font: 700 getRem(24) 'Poppins';
     margin-block-end: 18px;
     text-transform: capitalize;
   }
 
   &__item-text {
-    color: $services-color;
+    color: var(--third-gray);
     font: 500 getRem(13) 'Poppins';
     margin-block-start: 13px;
   }
 
   &__item-title {
+    color: var(--black);
     font: 700 getRem(16) 'Inter';
   }
 
   &__item-description {
     padding-block: 14px;
     padding-inline: 13px;
-  } 
+  }
 }

@@ -2,31 +2,33 @@
 
 .projects {
 
-		&__heading {
+   &__heading {
+      color: var(--black);
       font: 700 28px 'Poppins';
-      margin-block-end: 28px; 
-		}
+      margin-block-end: 28px;
+   }
 
-		&__grid {
+   &__grid {
       display: flex;
       flex-wrap: wrap;
       gap: 24px 53px;
       margin-inline: 28px;
-		}
+   }
 
-		&__item {
-      background-color: $projects-bg-color;
-      border: 2px solid $projects-border-color;
+   &__item {
+      background-color: var(--sand-light);
+      border: 2px solid var(--gold);
       border-radius: 9px;
       padding-block: 20px 16px;
       padding-inline: 19px;
-		}
+   }
 
-    &__title {
-      font: 700 18px 'Poppins'; 
-		}
+   &__title {
+      color: var(--black);
+      font: 700 18px 'Poppins';
+   }
 
-		&__image {
+   &__image {
       margin-block-end: 13px;
-		}
+   }
 }

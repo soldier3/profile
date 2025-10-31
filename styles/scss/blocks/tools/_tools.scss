@@ -9,17 +9,18 @@
 
   &__item {
     align-items: center;
+    color: var(--black);
     display: flex;
     flex-direction: column;
     font: 500 19px 'Poppins';
     flex-wrap: wrap;
     justify-content: center;
   }
-   
+
   &__image-wrapper {
     align-items: center;
-    border: 1px solid $skills-border-color;
-    box-shadow: 0 0 8px 2px $skills-shadow-color;
+    border: 1px solid var(--gold);
+    box-shadow: 0 0 8px 2px var(--yellow);
     border-radius: 8px;
     display: flex;
     justify-content: center;

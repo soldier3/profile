@@ -3,11 +3,13 @@
 .about {
 
   &__title {
+    color: var(--black);
     font: 700 getRem(28) 'Poppins';
     margin-block-end: 10px;
   }
 
   &__text {
+    color: var(--black);
     font: 400 getRem(18) 'Poppins';
     padding-block-end: 20px;
   }

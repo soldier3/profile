@@ -1,7 +1,7 @@
 @use '../../base' as *;
 
 .experiance {
-  border: 3px solid $experiance-border-color;
+  border: 3px solid var(--gold);
   border-radius: 9px;
   display: flex;
   margin-block-end: 20px;
@@ -10,16 +10,18 @@
   column-gap: 20px;
 
   &__logo {
-    border: 2px solid $experiance-border-color;
+    border: 2px solid var(--gold);
     border-radius: 8px;
   }
 
   &__heading {
+    color: var(--black);
     font-weight: 400;
     font-size: 18px;
   }
 
   &__description {
+    color: var(--black);
     font-size: 18px;
     font-family: 'Poppins';
   }

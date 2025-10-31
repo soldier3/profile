@@ -1,7 +1,7 @@
 @use '../../base' as *;
 
 .data {
-  background-color: $sand-light;
+  background-color: var(--sand-light);
   border-radius: 12px;
   padding: 21px;
   margin-block-end: 30px;
@@ -17,14 +17,14 @@
     }
 
     &:nth-last-child(n+2) {
-      border-bottom: 1px solid $border-color;
+      border-bottom: 1px solid var(--second-gray);
       padding-block-end: 10px;
     }
   }
 
   &__icon-wrapper {
     align-items: center;
-    background-color: $data-image-bg;
+    background-color: var(--gray);
     border-radius: 5px;
     display: inline-flex;
     justify-content: center;
@@ -34,7 +34,20 @@
   }
 
   &__content {
+    color: var(--black-muted);
     display: inline;
     font: 500 15px 'Inter';
   }
 }
+
+.theme--dark {
+  .data {
+    &__icon {
+      color: var(--black-muted);
+    }
+
+    &__icon-wrapper {
+        background-color: var(--white);
+    }
+  }
+} 

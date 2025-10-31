@@ -3,18 +3,31 @@
 .social {
   display: flex;
   justify-content: space-between;
-  margin-block-end: 35px;
-  max-width: 234px;
-  width: 100%;
+
 
   &--contacts {
+      margin-block-end: 35px;
+      max-width: 234px;
+      width: 100%;
+  }
+
+  &-item {
+
+    height: 34px;
+    width: 34px;
+  }
+
+  &__item--github,
+  &__item--hi {
+    color: var(--black);
   }
 }
 
-.social-item {
-  height: 34px;
-  width: 34px;
+  .theme--dark .social {
 
-  &--instagram {
+      &__item--github,
+      &__item--hi {
+      color: var(--black-muted);
+    }
   }
-}
+

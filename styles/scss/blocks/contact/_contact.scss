@@ -2,7 +2,8 @@
 
 .contact {
   &__heading {
-    font: 700 28px 'Poppins', sans-serif;
+    color: var(--black);
+    font: 700 28px $poppins;
     margin-block-end: 43px;
   }
 
@@ -14,14 +15,17 @@
   &__item {
     display: flex;
     flex-direction: column;
-    font: 500 20px 'Poppins', sans-serif;
+    color: var(--black);
+    font: 500 20px $poppins;
     row-gap: 5px;
   }
 
   &__input,
   &__message {
-    border: 2px solid $contact-border-color;
+    background-color: var(--white);
+    border: 2px solid var(--mine-color);
     border-radius: 7px;
+    color: var(--black);
     font-size: 20px;
     margin-block-end: 30px;
   }
@@ -38,9 +42,9 @@
   }
 
   &__submit {
-    color: $contact-button-color;
-    background-color: $contact-button-bg;
-    border: 2px solid $contact-border-color;
+    color: var(--white);
+    background-color: var(--gold);
+    border: 2px solid var(--mine-color);
     border-radius: 7px;
   }
 }

@@ -1,7 +1,7 @@
 @use '../../base' as *;
 
 body {
-    background-color: $body-background;
+    background-color: var(--sand);
 }
 
 .main {
