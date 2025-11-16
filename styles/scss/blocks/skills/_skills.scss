@@ -29,3 +29,11 @@
     width: 85px;
   }
 }
+
+.theme--dark {
+  .skills {
+    &__image-wrapper {
+      box-shadow: 0 0 5.5px 1px var(--yellow-muted);
+    }
+  }
+}

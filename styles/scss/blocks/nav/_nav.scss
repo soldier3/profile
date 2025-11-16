@@ -5,12 +5,15 @@
   border: 3px solid var(--gold);
   border-radius: 15px;
   padding-block: 30px;
-  padding-inline: 25px;
+  padding-inline: 10px;
 
   &__items {
     display: flex;
     gap: 24px;
-    flex-direction: column;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 1;
   }
 
   &__item-link {
@@ -32,13 +35,33 @@
     }
   }
 
-    &__item-link.active {
-      background-color: var(--gold);
-      color: var(--white);
-      font-weight: 700;
-    }
+  &__item-link.active {
+    background-color: var(--gold);
+    color: var(--white);
+    font-weight: 700;
+  }
 
   &__item-skills-bg {
       color: var(--skills-bg);
   }
 }
+
+@media screen and (min-width: $screen__xs) {
+  .nav {
+      padding-inline: 25px;
+  }
+}
+
+@media screen and (min-width: $screen__l) {
+  .nav {
+    margin-top: 150px;
+    order: 0;
+    position: sticky;
+    top: 0;
+
+    &__items {
+      flex-direction: column;
+      row-gap: 24px;
+    }
+  }
+} 

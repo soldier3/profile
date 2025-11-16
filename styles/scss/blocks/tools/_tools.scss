@@ -20,7 +20,7 @@
   &__image-wrapper {
     align-items: center;
     border: 1px solid var(--gold);
-    box-shadow: 0 0 8px 2px var(--yellow);
+    box-shadow: 0 0 8px 2px var(--yellow-muted);
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -29,3 +29,16 @@
     width: 85px;
   }
 }
+
+.theme--dark {
+  .tools {
+    &__image--wordpress,
+    &__image--github {
+        filter: brightness(0) saturate(100%) invert(1);
+    }
+
+    &__image-wrapper {
+      box-shadow: 0 0 5.5px 1px var(--yellow-muted);
+    }
+  }
+} 

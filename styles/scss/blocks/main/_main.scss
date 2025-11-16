@@ -5,15 +5,30 @@ body {
 }
 
 .main {
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 48px;
   display: flex;
-  gap: 0 52px;
-  padding-block-end: 38px;
-
-  
+  padding-inline: 15px;
+  padding-block-end: 38px; 
 }
 
 .main-conteiner {
     max-width: 1511px;
     margin: 0 auto;
+}
+
+
+@media screen and (min-width: $screen__l) {
+  .main {
+    align-items: flex-start;
+    flex-direction: row;  
+    gap: 0 30px;
+  }
+}
+
+@media screen and (min-width: $screen__xl) {
+  .main {
+    gap: 0 52px;
+  }
 }

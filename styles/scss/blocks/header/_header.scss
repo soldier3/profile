@@ -1,28 +1,59 @@
 @use '../../base' as *;
 
 .header {
+  column-gap: 5vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-block: 36px 38px;
   min-height: 62px;
+  padding-inline: 15px;
+
+
+  &__logo {
+    font-size: 33px;
+    margin-block-start: 2px;
+  }
+
+  &__theme-toggle {
+    background: var(--gold) url('../../images/icon/theme-mode.svg') no-repeat var(--toggle-img);
+    border-radius: 50%;
+    height: 59px;
+    transition: all .3s;
+    width: 59px;
+  }
 }
 
 .logo-wrapper {
+  align-items: center;
   color: var(--mine-color);
   font-family: $sigmarOne;
-  font-size: 38px;
 }
 
-.logo {
-  margin-inline-start: 150px;
-  margin-block-start: 2px;
+@media screen and (min-width: $screen__m) {
+  .header {
+    justify-content: space-between;
+
+    &__logo {
+      margin-inline-start: 150px;
+    }
+
+    &__theme-toggle {
+      margin-inline-end: 234px;
+    }
+  }
 }
 
-.theme-toggle {
-  background: var(--gold) url('../../images/icon/theme-mode.svg') no-repeat var(--toggle-img);
-  border-radius: 50%;
-  height: 59px;
-  margin-right: 234px;
-  transition: all .3s;
-  width: 59px;
+@media screen and (min-width: $screen__l) {
+  .header__theme-toggle {
+    margin-inline-end: 200px;
+  }
 }
+
+@media screen and (min-width: $screen__xl ) {
+  .header {
+    &__logo { 
+      font-size: 38px;
+    }
+  }
+}
+

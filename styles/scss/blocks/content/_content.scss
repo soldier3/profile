@@ -7,6 +7,13 @@
   border-radius: 13px;
   flex-grow: 1;
   max-width: 912px;
+  order: 2;
   padding-block: 26px 40px;
   padding-inline: 40px;
+}
+
+@media screen and (min-width: $screen__l) {
+  .content {
+    order: 0;
+  }
 }
