@@ -1,3 +1,0 @@
-@function getRem($px: 16) {
-    @return #{cal$px / 16}rem
-}
