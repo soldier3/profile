@@ -2,8 +2,9 @@
 
 .tools {
   align-items: center;
-  gap: 24px 26px;
-  display: flex;
+  display: grid;
+  gap: 24px 0;
+  grid-template-columns: repeat(auto-fill, 106px);
   flex-wrap: wrap;
   margin-inline-start: 11px;
 

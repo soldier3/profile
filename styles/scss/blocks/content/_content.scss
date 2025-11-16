@@ -1,7 +1,6 @@
 @use '../../base' as *;
 
 .content {
-  align-items: center;
   background-color: var(--white);
   border: 3px solid var(--gold);
   border-radius: 13px;
@@ -9,7 +8,19 @@
   max-width: 912px;
   order: 2;
   padding-block: 26px 40px;
-  padding-inline: 40px;
+  padding-inline: 10px;
+}
+
+@media screen and (min-width: $screen__xs) {
+  .content {
+    padding-inline: 20px;
+  }
+}
+
+@media screen and (min-width: $screen__s) {
+  .content {
+    padding-inline: 40px;
+  }
 }
 
 @media screen and (min-width: $screen__l) {

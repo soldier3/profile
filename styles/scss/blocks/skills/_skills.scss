@@ -1,9 +1,9 @@
 @use '../../base' as *;
 
 .skills {
-  align-items: center;
-  gap: 24px 26px;
-  display: flex;
+  display: grid;
+  gap: 24px 0px;
+  grid-template-columns: repeat(auto-fill,126px);
   flex-wrap: wrap;
   margin-inline-start: 11px;
 
